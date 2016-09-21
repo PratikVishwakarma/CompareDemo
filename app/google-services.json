@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "791480974999",
+    "firebase_url": "https://facebooklogindemo-8f640.firebaseio.com",
+    "project_id": "facebooklogindemo-8f640",
+    "storage_bucket": "facebooklogindemo-8f640.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791480974999:android:788313fa322d0858",
+        "android_client_info": {
+          "package_name": "com.example.rajpa.fblogindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791480974999-vi1ejdk2ji1kump7sqvcuq1s5jisiqvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU3j65c1k5fOOKfslMejGEtr0ysOzl52o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

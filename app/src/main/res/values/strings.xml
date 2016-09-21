@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FbLoginDemo</string>
+    <string name="facebook_app_id">1005980596186766</string>
+    <string name="loading">Loading</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_show_location">Map</string>
+</resources>

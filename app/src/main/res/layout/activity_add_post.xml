@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajpa.fblogindemo.AddPost"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/imageView_1"
+                android:src="@drawable/add_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/imageView_2"
+                android:src="@drawable/add_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/imageView_3"
+                android:src="@drawable/add_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/imageView_4"
+                android:src="@drawable/add_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/post_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_upload_image"
+        android:layout_weight="1"
+        android:text="Done"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <Button
+        android:id="@+id/button_search"
+        android:layout_weight="1"
+        android:text="Search"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+</LinearLayout>
